@@ -19,9 +19,6 @@ struct prefix_table
 
 
 
-char string[256] = "abcabcabc";
-
-
 int     build_prefix_table(struct prefix_table* prefix_table, char* pattern); // создание таблицы для алгоритма Кнута — Морриса — Пратта
 int     destroy_prefix_table(struct prefix_table* prefix_table);
 int     process_stream(struct prefix_table* prefix_tables, size_t size);
